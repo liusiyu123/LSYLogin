@@ -1,5 +1,7 @@
 PODS:
-  - LSYLogin (0.1.0)
+  - LSYLogin (0.3.0):
+    - LSYLogin/File1 (= 0.3.0)
+  - LSYLogin/File1 (0.3.0)
 
 DEPENDENCIES:
   - LSYLogin (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LSYLogin: 4ded5e1f87faa2441371a269e12e526701c3f8a9
+  LSYLogin: 6b265358aa49a984ca47fc74edda7c112e91bda1
 
 PODFILE CHECKSUM: 4f5d4ae35dcddd7e594dabfddb8f7e2079ffd01b
 

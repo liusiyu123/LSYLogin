@@ -65,7 +65,7 @@
 		9CAE276E61206691ECA2F66A /* Pods_LSYLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSYLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F46CA133C3C4DB1CFEF4208 /* Pods-LSYLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSYLogin_Example.debug.xcconfig"; path = "Target Support Files/Pods-LSYLogin_Example/Pods-LSYLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F44BCDF44C1C11B4370E24 /* Pods-LSYLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSYLogin_Tests.release.xcconfig"; path = "Target Support Files/Pods-LSYLogin_Tests/Pods-LSYLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C4064C053D1229C5F4E72536 /* LSYLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSYLogin.podspec; path = ../LSYLogin.podspec; sourceTree = "<group>"; };
+		C4064C053D1229C5F4E72536 /* LSYLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSYLogin.podspec; path = ../LSYLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C88D3F8125F0F412F5E42AB5 /* Pods_LSYLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSYLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				ABB5E1D45DF2BB5CC587AE80 /* [CP] Embed Pods Frameworks */,
+				A23DE63FB17A1E3B1D555C77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,7 +339,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ABB5E1D45DF2BB5CC587AE80 /* [CP] Embed Pods Frameworks */ = {
+		A23DE63FB17A1E3B1D555C77 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

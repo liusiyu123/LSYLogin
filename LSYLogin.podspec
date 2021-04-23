@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSYLogin'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of LSYLogin.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LSYLogin/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LSYLogin' => ['LSYLogin/Assets/*.png']
-  # }
+  s.source_files = 'LSYLogin/Classes/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.subspec 'File1' do |ss|
+  ss.source_files = 'LSYLogin/Classes/File1'
+  end
+      
+  s.public_header_files = 'LSYLogin/Classes/LSYLoginHeader.h'
+      
+   s.resource_bundles = {
+     'LSYLogin' => ['LSYLogin/Assets/*']
+   }
+
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

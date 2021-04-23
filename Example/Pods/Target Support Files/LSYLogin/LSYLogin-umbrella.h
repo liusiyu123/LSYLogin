@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import "LSYLoginViewController.h"
+#import "LSYLoginHeader.h"
+#import "LSYFileViewController.h"
 
 FOUNDATION_EXPORT double LSYLoginVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSYLoginVersionString[];

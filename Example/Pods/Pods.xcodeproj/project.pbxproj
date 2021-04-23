@@ -7,87 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB695682916D92D014FB6C4E31B7A77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1931ADCC11AD220147B2C2120EB9CD09 /* LSYLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4CE63CCC7D230FDDEB0539D8B291E5 /* LSYLogin-dummy.m */; };
+		1AC18B714838821F6D4A36AD52AC8267 /* LSYFileViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 712A5E86B351F84B46195B54835BB6FF /* LSYFileViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CD8BEA3050DAB5B10DE282D30882497 /* Pods-LSYLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE453841C99EA5A37063C87B8D8BFACF /* Pods-LSYLogin_Example-dummy.m */; };
-		4290F156B111D7A771C1C71F027C64C2 /* LSYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AE6127DE034EE923FBF7D1A2DD3649 /* LSYLoginViewController.m */; };
 		44E4ED0DEFE9C0E8BFDD42BCE2BAFBFB /* Pods-LSYLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFB9BC33E7BEE2545B9C56A0973FD01 /* Pods-LSYLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4632A7DB112A443CC557B0D569DEC5CB /* LSYLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B7D544FC158FD726D0247BB3440711 /* LSYLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56BA10C76AB46CB0D9D2D9242A481EBA /* Pods-LSYLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F37FA36914C142D52C370C186028F6 /* Pods-LSYLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A56598A5B8B8629656B26EE877CA757 /* Pods-LSYLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BD17A2BB12325EA17844512923FF5A /* Pods-LSYLogin_Tests-dummy.m */; };
-		C962613A1CE7722C377F8637E03A11BE /* LSYLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05D47FB8FEF5047B8B6869ED00468A /* LSYLogin-dummy.m */; };
+		86ECDE8B51C78A6AFEE1DBE09238E869 /* LSYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3DE96C1A7B14F8C46A3312B76E8217 /* LSYLoginViewController.m */; };
+		8EAB7CABD1F8D3BA03611446BDF3A95F /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D0A0132B52563EE635700B2DB80B2 /* images.xcassets */; };
+		A5B41E94F489E44AFC40BB3ECB65F8A6 /* LSYLogin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 43312F14B830984544B07B0427FB9D4C /* LSYLogin.bundle */; };
+		B0B8995F82A148195413F8D44F725E82 /* LSYLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE486A5AFF7CAA990104CFFEA48026 /* LSYLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C289A85030DA38373FCD3164E4EBDAE4 /* LSYFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B76320E57B96D48B044EB255DAA0F /* LSYFileViewController.m */; };
+		C6CEFFFE3FE0942CDCC9BAFE1581226C /* LSYLoginHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D369B822F16D6A63D6E4FBEB7575AD /* LSYLoginHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE292EE220D144C1D6791716B96999D5 /* LSYLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 471A1D21D9BFF350151E2875F9B8BEDB /* LSYLoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1B6F02A516A0CF4507783E4F0D4408C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D64032C991EE26FB42C7EFC1AA09223A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		ECD4433DDE512582850DB415F0E041F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F9CF2DE3797867ED0E5B0916736FEF73 /* LSYLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C355D023BEBB3424D5FC449C04CFA48 /* LSYLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7DD608DDD5C18D8F43210D51A8202619 /* PBXContainerItemProxy */ = {
+		44881B4987B240221AB4CFAD251CD99E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CC15DD0170C12E2CDAC78F921B8BFCFC;
 			remoteInfo = "Pods-LSYLogin_Example";
 		};
-		ADC3F8ED6D534EF49E84027B6172050C /* PBXContainerItemProxy */ = {
+		B3661EB80A2FD6A2E1E15819CBB887AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBABF39F67389FFB20A44FBB47B3CD1F;
 			remoteInfo = LSYLogin;
 		};
+		C580475903547D31F174E55220B5E9ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA5CD439BE6807FC5EB67E30938D3B8;
+			remoteInfo = "LSYLogin-LSYLogin";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07623D8F1AA6E395CA3500655A6AAD43 /* LSYLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSYLogin-prefix.pch"; sourceTree = "<group>"; };
 		0B0740F272110B89DFCDBD846008634F /* Pods-LSYLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSYLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F0E25D2B0F9A91CCAF6470ED94C97BE /* Pods_LSYLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSYLogin_Tests.framework; path = "Pods-LSYLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		105EBC391E5EE150DE7D99A4793F4A2A /* Pods-LSYLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSYLogin_Example-Info.plist"; sourceTree = "<group>"; };
 		1807BFD241EB7CF57DE23E48B96AEC61 /* Pods-LSYLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSYLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		193FDAC2A44797AB7B52A71DB5B2A641 /* Pods-LSYLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSYLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BA944C0E8D2A524648590F05ED31FE2 /* LSYLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSYLogin.modulemap; sourceTree = "<group>"; };
-		217A68B08C879876DB0A6AC37E7D173A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2ACB8DCE030C8A366897B0216B369915 /* Pods-LSYLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSYLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E05D47FB8FEF5047B8B6869ED00468A /* LSYLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSYLogin-dummy.m"; sourceTree = "<group>"; };
 		37F37FA36914C142D52C370C186028F6 /* Pods-LSYLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSYLogin_Example-umbrella.h"; sourceTree = "<group>"; };
 		385339BB82465A1528F8976C813322F8 /* Pods-LSYLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSYLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		40E9B6B69EE72C141184F109E077A80C /* Pods-LSYLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSYLogin_Example.modulemap"; sourceTree = "<group>"; };
+		43312F14B830984544B07B0427FB9D4C /* LSYLogin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LSYLogin.bundle; path = "LSYLogin-LSYLogin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		445A388AAC893AADB56226C011C5F39C /* Pods-LSYLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSYLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		44B7D544FC158FD726D0247BB3440711 /* LSYLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSYLogin-umbrella.h"; sourceTree = "<group>"; };
-		46AE6127DE034EE923FBF7D1A2DD3649 /* LSYLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSYLoginViewController.m; path = LSYLogin/Classes/LSYLoginViewController.m; sourceTree = "<group>"; };
+		471A1D21D9BFF350151E2875F9B8BEDB /* LSYLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSYLoginViewController.h; path = LSYLogin/Classes/LSYLoginViewController.h; sourceTree = "<group>"; };
+		472495FBBD016AB2EC1A976EBBB18F72 /* LSYLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSYLogin.modulemap; sourceTree = "<group>"; };
+		4E4CE63CCC7D230FDDEB0539D8B291E5 /* LSYLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSYLogin-dummy.m"; sourceTree = "<group>"; };
 		4FFB9BC33E7BEE2545B9C56A0973FD01 /* Pods-LSYLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSYLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
-		566F0EED00E86AC657F312715E878BE0 /* LSYLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSYLogin.debug.xcconfig; sourceTree = "<group>"; };
+		5B4D0A0132B52563EE635700B2DB80B2 /* images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = LSYLogin/Assets/images.xcassets; sourceTree = "<group>"; };
+		615C63DC26C8048BE52AAFB882497594 /* LSYLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSYLogin-Info.plist"; sourceTree = "<group>"; };
+		693869A938EB27A8D47EAED80B070AEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6A6B76320E57B96D48B044EB255DAA0F /* LSYFileViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSYFileViewController.m; path = LSYLogin/Classes/File1/LSYFileViewController.m; sourceTree = "<group>"; };
+		712A5E86B351F84B46195B54835BB6FF /* LSYFileViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSYFileViewController.h; path = LSYLogin/Classes/File1/LSYFileViewController.h; sourceTree = "<group>"; };
 		71BD17A2BB12325EA17844512923FF5A /* Pods-LSYLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSYLogin_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C355D023BEBB3424D5FC449C04CFA48 /* LSYLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSYLoginViewController.h; path = LSYLogin/Classes/LSYLoginViewController.h; sourceTree = "<group>"; };
+		7BDF8335C07CACBD7CF0A01BA1B727B9 /* LSYLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSYLogin.debug.xcconfig; sourceTree = "<group>"; };
 		82E68A7932CDB733AFED7C89E62EC2B1 /* Pods-LSYLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSYLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
-		918A34302E58C616C541DA16459AFD12 /* LSYLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSYLogin-Info.plist"; sourceTree = "<group>"; };
+		8959DF2AC59BE098E10A97FF0536BBB9 /* LSYLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSYLogin.release.xcconfig; sourceTree = "<group>"; };
+		93394817EA043DC2D5E088D92B5860FB /* ResourceBundle-LSYLogin-LSYLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LSYLogin-LSYLogin-Info.plist"; sourceTree = "<group>"; };
+		996504E7FAF617282E4C43285E96A547 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB0EFDA5A702B884F23D56C65CF2915 /* Pods_LSYLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSYLogin_Example.framework; path = "Pods-LSYLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E5469FDFA52958263416F0D18B63C5 /* LSYLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSYLogin-prefix.pch"; sourceTree = "<group>"; };
+		A5DE486A5AFF7CAA990104CFFEA48026 /* LSYLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSYLogin-umbrella.h"; sourceTree = "<group>"; };
 		B3CAD4205033F2272066917C22A2815D /* LSYLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSYLogin.framework; path = LSYLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B577B1374C3335DD0E84C310EBCA4AA0 /* Pods-LSYLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSYLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B76AAFA012B3092A75C99A3E4CDCB729 /* LSYLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSYLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE453841C99EA5A37063C87B8D8BFACF /* Pods-LSYLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSYLogin_Example-dummy.m"; sourceTree = "<group>"; };
-		CB412D3662528E39B34290869DB42392 /* LSYLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSYLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB5D56263979A2D421751C55CF388339 /* LSYLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSYLogin.release.xcconfig; sourceTree = "<group>"; };
 		E1A7A2EBE77CAD48BED7C9385194B038 /* Pods-LSYLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSYLogin_Tests-Info.plist"; sourceTree = "<group>"; };
 		E76A65E2D0A4AA88B8BF36EC0A2A5503 /* Pods-LSYLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSYLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E958C39B85EB569F1A03EEEB5F4B388F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E7D369B822F16D6A63D6E4FBEB7575AD /* LSYLoginHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSYLoginHeader.h; path = LSYLogin/Classes/LSYLoginHeader.h; sourceTree = "<group>"; };
+		ED3DE96C1A7B14F8C46A3312B76E8217 /* LSYLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSYLoginViewController.m; path = LSYLogin/Classes/LSYLoginViewController.m; sourceTree = "<group>"; };
 		F53D913D65C2ECAC037D916316BA648E /* Pods-LSYLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSYLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15F3EF27B790B9D0A0AF16C067C16CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BAC95CDA437F86154E807D69534F2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B6F02A516A0CF4507783E4F0D4408C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E7274F1D7AD5BF087C826030F397F41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ECD4433DDE512582850DB415F0E041F6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A39482356B17499764EF86ABBA20D4BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FB695682916D92D014FB6C4E31B7A77 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,14 +127,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17683D86A03830D4AE328E90AD8A14B3 /* Pod */ = {
+		112377CEEDEA53EC5C11AE1559F4FAAB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E958C39B85EB569F1A03EEEB5F4B388F /* LICENSE */,
-				CB412D3662528E39B34290869DB42392 /* LSYLogin.podspec */,
-				217A68B08C879876DB0A6AC37E7D173A /* README.md */,
+				472495FBBD016AB2EC1A976EBBB18F72 /* LSYLogin.modulemap */,
+				4E4CE63CCC7D230FDDEB0539D8B291E5 /* LSYLogin-dummy.m */,
+				615C63DC26C8048BE52AAFB882497594 /* LSYLogin-Info.plist */,
+				A3E5469FDFA52958263416F0D18B63C5 /* LSYLogin-prefix.pch */,
+				A5DE486A5AFF7CAA990104CFFEA48026 /* LSYLogin-umbrella.h */,
+				7BDF8335C07CACBD7CF0A01BA1B727B9 /* LSYLogin.debug.xcconfig */,
+				8959DF2AC59BE098E10A97FF0536BBB9 /* LSYLogin.release.xcconfig */,
+				93394817EA043DC2D5E088D92B5860FB /* ResourceBundle-LSYLogin-LSYLogin-Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LSYLogin";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -118,6 +149,16 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B1C4C0484F0F56C29CEFF4A9E931E88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				693869A938EB27A8D47EAED80B070AEE /* LICENSE */,
+				B76AAFA012B3092A75C99A3E4CDCB729 /* LSYLogin.podspec */,
+				996504E7FAF617282E4C43285E96A547 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7436C365342178460715D131809D8C11 /* Pods-LSYLogin_Example */ = {
@@ -137,16 +178,6 @@
 			path = "Target Support Files/Pods-LSYLogin_Example";
 			sourceTree = "<group>";
 		};
-		87F4B092B69A004275523E755471CA0B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B3CAD4205033F2272066917C22A2815D /* LSYLogin.framework */,
-				9DB0EFDA5A702B884F23D56C65CF2915 /* Pods_LSYLogin_Example.framework */,
-				0F0E25D2B0F9A91CCAF6470ED94C97BE /* Pods_LSYLogin_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9B586A70794836D30EA1F79DC8A04E6E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +185,21 @@
 				C3C8E51B2A14DA4E01B1428AEF74EE5C /* Pods-LSYLogin_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB4650E3D86DC6B8ED3DF2B0E84E0FC8 /* LSYLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5B4D0A0132B52563EE635700B2DB80B2 /* images.xcassets */,
+				E7D369B822F16D6A63D6E4FBEB7575AD /* LSYLoginHeader.h */,
+				471A1D21D9BFF350151E2875F9B8BEDB /* LSYLoginViewController.h */,
+				ED3DE96C1A7B14F8C46A3312B76E8217 /* LSYLoginViewController.m */,
+				DB672F3BE9C3F5C36318BFDC02B20557 /* File1 */,
+				6B1C4C0484F0F56C29CEFF4A9E931E88 /* Pod */,
+				112377CEEDEA53EC5C11AE1559F4FAAB /* Support Files */,
+			);
+			name = LSYLogin;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C3C8E51B2A14DA4E01B1428AEF74EE5C /* Pods-LSYLogin_Tests */ = {
@@ -172,25 +218,13 @@
 			path = "Target Support Files/Pods-LSYLogin_Tests";
 			sourceTree = "<group>";
 		};
-		CC2D2C699885B1A0A68C5EECD6803ADD /* LSYLogin */ = {
-			isa = PBXGroup;
-			children = (
-				7C355D023BEBB3424D5FC449C04CFA48 /* LSYLoginViewController.h */,
-				46AE6127DE034EE923FBF7D1A2DD3649 /* LSYLoginViewController.m */,
-				17683D86A03830D4AE328E90AD8A14B3 /* Pod */,
-				E949C95C5496847248A09533A40E2C11 /* Support Files */,
-			);
-			name = LSYLogin;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F6E0A0616DBB1EBC7A9ECEBB3C8F9474 /* Development Pods */,
+				E7F0C0EE3E5656F9AC3528ED93BCC7E5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				87F4B092B69A004275523E755471CA0B /* Products */,
+				F54AEE15306BAD9045030101DFA649F0 /* Products */,
 				9B586A70794836D30EA1F79DC8A04E6E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -203,46 +237,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E949C95C5496847248A09533A40E2C11 /* Support Files */ = {
+		DB672F3BE9C3F5C36318BFDC02B20557 /* File1 */ = {
 			isa = PBXGroup;
 			children = (
-				1BA944C0E8D2A524648590F05ED31FE2 /* LSYLogin.modulemap */,
-				2E05D47FB8FEF5047B8B6869ED00468A /* LSYLogin-dummy.m */,
-				918A34302E58C616C541DA16459AFD12 /* LSYLogin-Info.plist */,
-				07623D8F1AA6E395CA3500655A6AAD43 /* LSYLogin-prefix.pch */,
-				44B7D544FC158FD726D0247BB3440711 /* LSYLogin-umbrella.h */,
-				566F0EED00E86AC657F312715E878BE0 /* LSYLogin.debug.xcconfig */,
-				CB5D56263979A2D421751C55CF388339 /* LSYLogin.release.xcconfig */,
+				712A5E86B351F84B46195B54835BB6FF /* LSYFileViewController.h */,
+				6A6B76320E57B96D48B044EB255DAA0F /* LSYFileViewController.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LSYLogin";
+			name = File1;
 			sourceTree = "<group>";
 		};
-		F6E0A0616DBB1EBC7A9ECEBB3C8F9474 /* Development Pods */ = {
+		E7F0C0EE3E5656F9AC3528ED93BCC7E5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC2D2C699885B1A0A68C5EECD6803ADD /* LSYLogin */,
+				BB4650E3D86DC6B8ED3DF2B0E84E0FC8 /* LSYLogin */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F54AEE15306BAD9045030101DFA649F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43312F14B830984544B07B0427FB9D4C /* LSYLogin.bundle */,
+				B3CAD4205033F2272066917C22A2815D /* LSYLogin.framework */,
+				9DB0EFDA5A702B884F23D56C65CF2915 /* Pods_LSYLogin_Example.framework */,
+				0F0E25D2B0F9A91CCAF6470ED94C97BE /* Pods_LSYLogin_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		38A0C5C6586C3ACE11F9C3494226D386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC18B714838821F6D4A36AD52AC8267 /* LSYFileViewController.h in Headers */,
+				B0B8995F82A148195413F8D44F725E82 /* LSYLogin-umbrella.h in Headers */,
+				C6CEFFFE3FE0942CDCC9BAFE1581226C /* LSYLoginHeader.h in Headers */,
+				CE292EE220D144C1D6791716B96999D5 /* LSYLoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7873186E9CAFF90625884375EE0722D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44E4ED0DEFE9C0E8BFDD42BCE2BAFBFB /* Pods-LSYLogin_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BA93C0D2E5B66CF0F4570C0A79727CC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4632A7DB112A443CC557B0D569DEC5CB /* LSYLogin-umbrella.h in Headers */,
-				F9CF2DE3797867ED0E5B0916736FEF73 /* LSYLoginViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,18 +298,36 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CBABF39F67389FFB20A44FBB47B3CD1F /* LSYLogin */ = {
+		3FA5CD439BE6807FC5EB67E30938D3B8 /* LSYLogin-LSYLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BFA045BF4673FD4848FC83E29345842 /* Build configuration list for PBXNativeTarget "LSYLogin" */;
+			buildConfigurationList = 6AA10BE1142F6B1EE71B4EEA06A36D29 /* Build configuration list for PBXNativeTarget "LSYLogin-LSYLogin" */;
 			buildPhases = (
-				9BA93C0D2E5B66CF0F4570C0A79727CC /* Headers */,
-				DCB30159E6E859B055BB3395A495597F /* Sources */,
-				A39482356B17499764EF86ABBA20D4BD /* Frameworks */,
-				5FDAF8AADE25FF6056CF2A9FBF6328C6 /* Resources */,
+				03A0FC1A958C5B285911A4DD87596B85 /* Sources */,
+				15F3EF27B790B9D0A0AF16C067C16CC2 /* Frameworks */,
+				C09A1FA10E6F8845E35A9CDDFC9CB5D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "LSYLogin-LSYLogin";
+			productName = "LSYLogin-LSYLogin";
+			productReference = 43312F14B830984544B07B0427FB9D4C /* LSYLogin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CBABF39F67389FFB20A44FBB47B3CD1F /* LSYLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D70FAE49D040DD071CF00CBD8013C76 /* Build configuration list for PBXNativeTarget "LSYLogin" */;
+			buildPhases = (
+				38A0C5C6586C3ACE11F9C3494226D386 /* Headers */,
+				77E47A01B6943850280442AECC5CF487 /* Sources */,
+				4BAC95CDA437F86154E807D69534F2E2 /* Frameworks */,
+				EECEED700CE5C41E73E15B8457C2B2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7BB468BEA4251057739D00EC7606D99 /* PBXTargetDependency */,
 			);
 			name = LSYLogin;
 			productName = LSYLogin;
@@ -287,7 +346,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A73DC2FC20754F26C0B6878A82C55D06 /* PBXTargetDependency */,
+				EC32212F2425B96CCA5B6E549A2FA027 /* PBXTargetDependency */,
 			);
 			name = "Pods-LSYLogin_Example";
 			productName = "Pods-LSYLogin_Example";
@@ -306,7 +365,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4C11EC5B0E231FC06CFBF8849FFC23EB /* PBXTargetDependency */,
+				A85EA2CF8B58532A32D73925C33413E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-LSYLogin_Tests";
 			productName = "Pods-LSYLogin_Tests";
@@ -331,11 +390,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 87F4B092B69A004275523E755471CA0B /* Products */;
+			productRefGroup = F54AEE15306BAD9045030101DFA649F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CBABF39F67389FFB20A44FBB47B3CD1F /* LSYLogin */,
+				3FA5CD439BE6807FC5EB67E30938D3B8 /* LSYLogin-LSYLogin */,
 				CC15DD0170C12E2CDAC78F921B8BFCFC /* Pods-LSYLogin_Example */,
 				DAC6FE52D0E1A5B218CA7C232DDAABCF /* Pods-LSYLogin_Tests */,
 			);
@@ -350,13 +410,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FDAF8AADE25FF6056CF2A9FBF6328C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7ADA40A17A912378F4C43A7E0359C0DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,9 +417,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C09A1FA10E6F8845E35A9CDDFC9CB5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB7CABD1F8D3BA03611446BDF3A95F /* images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECEED700CE5C41E73E15B8457C2B2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B41E94F489E44AFC40BB3ECB65F8A6 /* LSYLogin.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		03A0FC1A958C5B285911A4DD87596B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E47A01B6943850280442AECC5CF487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C289A85030DA38373FCD3164E4EBDAE4 /* LSYFileViewController.m in Sources */,
+				1931ADCC11AD220147B2C2120EB9CD09 /* LSYLogin-dummy.m in Sources */,
+				86ECDE8B51C78A6AFEE1DBE09238E869 /* LSYLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FEB3A938746604B1456E8A1891F9A83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,63 +469,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB30159E6E859B055BB3395A495597F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C962613A1CE7722C377F8637E03A11BE /* LSYLogin-dummy.m in Sources */,
-				4290F156B111D7A771C1C71F027C64C2 /* LSYLoginViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C11EC5B0E231FC06CFBF8849FFC23EB /* PBXTargetDependency */ = {
+		A85EA2CF8B58532A32D73925C33413E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LSYLogin_Example";
 			target = CC15DD0170C12E2CDAC78F921B8BFCFC /* Pods-LSYLogin_Example */;
-			targetProxy = 7DD608DDD5C18D8F43210D51A8202619 /* PBXContainerItemProxy */;
+			targetProxy = 44881B4987B240221AB4CFAD251CD99E /* PBXContainerItemProxy */;
 		};
-		A73DC2FC20754F26C0B6878A82C55D06 /* PBXTargetDependency */ = {
+		EC32212F2425B96CCA5B6E549A2FA027 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LSYLogin;
 			target = CBABF39F67389FFB20A44FBB47B3CD1F /* LSYLogin */;
-			targetProxy = ADC3F8ED6D534EF49E84027B6172050C /* PBXContainerItemProxy */;
+			targetProxy = B3661EB80A2FD6A2E1E15819CBB887AF /* PBXContainerItemProxy */;
+		};
+		F7BB468BEA4251057739D00EC7606D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LSYLogin-LSYLogin";
+			target = 3FA5CD439BE6807FC5EB67E30938D3B8 /* LSYLogin-LSYLogin */;
+			targetProxy = C580475903547D31F174E55220B5E9ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AE5E214A8F9BB3D09EFAF139F3B823A /* Release */ = {
+		07C8CFA0083D207074F3271FEB6E36A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB5D56263979A2D421751C55CF388339 /* LSYLogin.release.xcconfig */;
+			baseConfigurationReference = 7BDF8335C07CACBD7CF0A01BA1B727B9 /* LSYLogin.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSYLogin/LSYLogin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSYLogin/LSYLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LSYLogin";
+				IBSC_MODULE = LSYLogin;
+				INFOPLIST_FILE = "Target Support Files/LSYLogin/ResourceBundle-LSYLogin-LSYLogin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSYLogin/LSYLogin.modulemap";
-				PRODUCT_MODULE_NAME = LSYLogin;
 				PRODUCT_NAME = LSYLogin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -507,9 +575,9 @@
 			};
 			name = Debug;
 		};
-		28D3F4785075CBC9BA677BADD6C7EC43 /* Debug */ = {
+		4077A33E068068654222589B20001BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 566F0EED00E86AC657F312715E878BE0 /* LSYLogin.debug.xcconfig */;
+			baseConfigurationReference = 8959DF2AC59BE098E10A97FF0536BBB9 /* LSYLogin.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -532,10 +600,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DA02C2EAAD238DBE7E3A369D8DF83FC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -568,6 +637,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		BF16C1043409D45E7E738C268CD2CC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8959DF2AC59BE098E10A97FF0536BBB9 /* LSYLogin.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LSYLogin";
+				IBSC_MODULE = LSYLogin;
+				INFOPLIST_FILE = "Target Support Files/LSYLogin/ResourceBundle-LSYLogin-LSYLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LSYLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -664,6 +749,36 @@
 			};
 			name = Release;
 		};
+		D536FD8E1F450E2301E775C94A2BEFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDF8335C07CACBD7CF0A01BA1B727B9 /* LSYLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSYLogin/LSYLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSYLogin/LSYLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSYLogin/LSYLogin.modulemap";
+				PRODUCT_MODULE_NAME = LSYLogin;
+				PRODUCT_NAME = LSYLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EC0DC447670A0D35DA5EBEF40553431F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2ACB8DCE030C8A366897B0216B369915 /* Pods-LSYLogin_Tests.debug.xcconfig */;
@@ -732,15 +847,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BFA045BF4673FD4848FC83E29345842 /* Build configuration list for PBXNativeTarget "LSYLogin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28D3F4785075CBC9BA677BADD6C7EC43 /* Debug */,
-				0AE5E214A8F9BB3D09EFAF139F3B823A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		393375346BAD08A6B80CCE4B965E77AD /* Build configuration list for PBXNativeTarget "Pods-LSYLogin_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,11 +865,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6AA10BE1142F6B1EE71B4EEA06A36D29 /* Build configuration list for PBXNativeTarget "LSYLogin-LSYLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C8CFA0083D207074F3271FEB6E36A6 /* Debug */,
+				BF16C1043409D45E7E738C268CD2CC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		864DEAA4BF41686902A419D87888084E /* Build configuration list for PBXNativeTarget "Pods-LSYLogin_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC0DC447670A0D35DA5EBEF40553431F /* Debug */,
 				ED56E79D738E15D8496AFA9AD341588C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D70FAE49D040DD071CF00CBD8013C76 /* Build configuration list for PBXNativeTarget "LSYLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D536FD8E1F450E2301E775C94A2BEFB5 /* Debug */,
+				4077A33E068068654222589B20001BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
